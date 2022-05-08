@@ -1,0 +1,69 @@
+article
+{
+    height: auto;
+    width: auto;
+}
+
+header
+{
+    color: blanchedalmond;
+    background-color: burlywood;
+    width: 100%;
+    text-align: left;
+    font-size: large;
+}
+
+
+.block
+{
+    background-color: burlywood;
+    width: 20%;
+    border-radius: 20%;
+    color: brown;
+    text-align: center;
+    opacity: .8;
+}
+
+.links
+{
+    background-color: burlywood;
+    color: black;
+    text-align: center;
+    width: 20%;
+    border-radius: 5%;
+    opacity: .7;
+    padding: auto;
+}
+
+.textbookassign
+{
+    background-color: burlywood;
+    color: black;
+    text-shadow: 1px 1px  black;
+    border-radius: 20%;
+    opacity: .7;
+    padding: 9px;
+    width: 5%;
+    text-align: center;
+}
+
+.footer
+{
+    background-color: burlywood;
+    color: black;
+    text-shadow: 1px 1px black;
+    border-radius: 20%;
+    opacity: .7;
+    padding: 9px;
+    width: 10%;
+}
+
+.parallax
+{
+    background-image: url("fogwoods.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sport Club Survey (Pro Leauge Edition)</title>
+<style type="text/css">
+@import url(https://fonts.googleapis.com/css2?family=Anton);
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url('media/Bird-Smile.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top left;
+    color: black;
+    font-size: 14pt;
+    background-color: greenyellow;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    color: darkorange;
+    font-weight: 900;
+    text-shadow: 1px 1px white;
+    width: 55%;
+    background-color: green;
+    border-radius: 20px;
+    opacity: .80;
+}
+legend {
+    font-size: 1.5em;
+    font-weight: 900;
+    color: black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    box-shadow: 2px 2px black;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+label {
+    text-align: right;
+    width: 150px;
+    float: left;
+    padding-right: 10px;
+    color: black;
+    font-size: 12pt;
+    vertical-align: text-top;
+}
+p {
+    font-weight: 900;
+}
+fieldset {
+    padding: 1%;
+    flex: 1;
+    min-width: 400px;
+    background-color: white;
+    opacity: .9;
+    margin: 10px;
+    overflow: auto;
+    border: 4px groove lightsteelblue;
+}
+.inputButton {
+    font-size: 12pt;
+    width: 100px;
+    height: 30px;
+    font-size: 12pt;
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    margin-top: 50px;
+    text-align: center;
+}
+input {
+    text-align: left;
+    width: 160px;
+    font-size: 12pt;
+    color: black;
+}
+.shortinputButton {
+    width: 20px;
+    text-align: left;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+</head>
+<body>
+<article>
+  <h1>Pet Lovers Club</h1>
+  <form name="confirmation" id="confirmation" action="https://lisabalbach.com/CIT180/Lesson8/FormProcessor.html" method="get" >
+    <input type="hidden" name="mailto" value="mailto:lbalbach@nmc.edu">
+    <fieldset class="center">
+      <legend>Addressing Information:</legend>
+      <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" size="30"  required autofocus/>
+        <br />
+      </p>
+      <p>
+        <label for="telephone">Cell#:</label>
+        <input type="tel" id="telephone"  name="telephone" size="24"  placeholder="(231)222-4875" required/>
+        <br/>
+      </p>
+      <p>
+        <label for="Email">E-Mail Address:</label>
+        <input type="email" id="email"  name="email" size="20" required/>
+      </p>
+      <p>
+        <label for="city">City:</label>
+        <input type="text"  id="city" name="city" size="20"/>
+      </p>
+      <p>
+        <label for="address">Address:</label>
+        <input  type="text" id="address" name="address" size="20"  />
+        <br/>
+      </p>
+      <p>
+        <label for="state">State:</label>
+        <input type="text"  id="state" name="state" size="20" value="MI" />
+      </p>
+      <p>
+        <label for="zip">Zip:</label>
+        <input type="text"  id="zip" name="zip" size="10"/>
+        <br/>
+      </p>
+    </fieldset>
+    <fieldset class="center">
+      <legend>Background Check</legend>
+      <div style="padding-left:30px;">
+        <table style="border:none; min-width:300px;"	>
+          <tr style="vertical-align:top;">
+            <td><h3>Types of Pets You've Had</h3>
+              <p>
+                <input type="checkbox" name="Boxes" id="transfer" value="transfer degree" class="shortinputButton">
+                <label for="transfer">Cat</label>
+              </p>
+              <p>
+                <input type="checkbox" name="Boxes" id="two-year" value="AAS degree" class="shortinputButton">
+                <label for="two-year">Dog</label>
+              </p>
+              <p>
+                <input type="checkbox" name="Boxes" id="certificate" value="certificate seeking" class="shortinputButton">
+                <label for="certificate">Lizard</label>
+              </p>
+              <p>
+                <input type="checkbox" name="Boxes" id="adult" value="adult interest" class="shortinputButton">
+                <label for="adult">Bird</label>
+              </p>
+              <p>
+                <input type="checkbox" name="Boxes" id="unsure" value="unknown major" class="shortinputButton">
+                <label for="unsure">Other</label>
+              </p>
+              <p><textarea rows="1" cols="50" id="TextArea" name="TextArea" wrap="soft" style="font-size:10pt;"></textarea>
+              </p></td>
+          </tr>
+        </table>
+      </div>
+    </fieldset>
+    <fieldset class="center">
+      <legend>Days To Meet &amp; Times:</legend>
+      <div style="padding-left:30px;">
+        <p>Select the day you prefer to have a club meet up. (Most picked vote will meet on that day. Time varies.)</p>
+        <p>Preferd Club Meet Days:<br>
+            <br>
+          <select id="select1" name="select1" size="6" single="single" style="width:300px;" >
+            <option value="Monday">Mondays</option>
+            <option value="Tuesday">Tuesdays</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursay">Thursday</option>
+            <option value="Friday">Friday</option>
+          </select>
+        </p>
+      </div>
+    </fieldset>
+    <fieldset class="center">
+      <legend>Other Information</legend>
+      <p>What was the longest you had a pet for and do you still own on to this day?<br/>
+        <textarea rows="10" cols="50" id="TextArea" name="TextArea" wrap="soft" style="font-size:10pt;"></textarea>
+      </p>
+      <p style="padding-bottom:20px; text-align:center;">
+        <input type="submit" class="inputButton" value="Submit"   style="margin-right:20px"/>
+        <input type="reset"  class="inputButton" value="Reset" />
+      </p>
+    </fieldset>
+  </form>
+</article>
+</body>
+</html>

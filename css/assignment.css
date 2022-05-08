@@ -1,0 +1,129 @@
+article
+{
+    height: auto;
+    width: auto;
+}
+
+header
+{
+    color: blanchedalmond;
+    background-color: burlywood;
+    width: 100%;
+    text-align: left;
+    font-size: large;
+}
+
+
+.block
+{
+    background-color: burlywood;
+    width: 100%;
+    border-radius: 20%;
+    color: brown;
+    text-align: center;
+   
+   
+}
+
+.links
+{
+    background-color: burlywood;
+    color: black;
+    text-align: center;
+    width: 100%;
+    border-radius: 5%;
+    padding: auto;
+}
+
+.textbookassign
+{
+    background-color: burlywood;
+    color: black;
+    text-shadow: 1px 1px  black;
+    border-radius: 20%;
+ 
+    padding: 9px;
+    width: 5%;
+    text-align: center;
+}
+
+.footer
+{
+    background-color: burlywood;
+    color: black;
+    text-shadow: 1px 1px black;
+    padding: 9px;
+    width: 99%;
+    margin-top: 15%;
+
+}
+
+.parallax
+{
+    background-image: url("snowfall.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav
+{
+    margin: auto;
+    text-align: center;
+}
+nav ul {
+    background: linear-gradient(0deg, whitesmoke, peachpuff, whitesmoke); 
+	box-shadow: 6px 6px 6px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	color:black;
+	font-weight:900;
+	width:90%;
+	display:inline-table;
+}
+nav ul li {
+	display:inline-table;
+}
+nav ul li a {
+	display: block; 
+	padding: 25px 40px;
+	color: bisque; 
+	text-decoration: none;
+}
+nav ul li:hover {
+    background: linear-gradient(180deg, white, #ffb878, bisque); 
+}
+nav ul li:hover a {
+	color:bisque
+}
+nav ul li:hover > ul {
+	display:flex;
+	flex-direction:column;
+	width:30%;
+}
+	
+nav ul ul {
+	display: none;
+    background: linear-gradient(180deg, peachpuff,  brown); 
+	border-radius: 0px; 
+	padding: 0;
+	position: absolute; 
+	z-index:10;
+}
+nav ul ul li {
+	display:block; 
+	border-top: 1px solid #757575;
+	border-bottom: 1px solid #757575; 
+	position: relative;
+}
+nav ul ul li a {
+	padding: 15px 40px;
+	color: black;
+}	
+nav ul ul li a:hover {
+	background: linear-gradient(180deg, white,  brown);
+	color:black;
+}

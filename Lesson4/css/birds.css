@@ -1,0 +1,46 @@
+    head{
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.5em;
+    }
+    body{
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+        font-size:1.5em;
+        color:cyan;
+    }
+    footer{
+        text-align:auto;
+        background-color:tan;
+        color:olive;
+        width:auto;
+        padding:none;
+    }
+    a:link{
+        color:orange;
+        text-decoration: none;
+    }
+    a:visited{
+        color:navy;
+        text-decoration: underline;
+    }
+    a:hover{
+        color:cyan;
+        text-decoration: underline;
+        background-color:gray;
+    }
+    a:active{
+        color:brown;
+        text-decoration: underline;
+    }
+    h1{
+        font-size:1.5em;
+        color:cyan;
+        text-shadow: 1px 1px black;
+    }
+    h2{
+        color:cyan;
+        font-size:1.5em;
+        text-shadow:1px 1px black;
+        width:auto;
+        background-color:gray;
+        padding:none;
+    }
